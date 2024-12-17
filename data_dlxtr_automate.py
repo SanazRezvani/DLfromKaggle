@@ -3,7 +3,7 @@ import zipfile
 import pandas as pd
 
 # Define dataset information
-dataset = ".../...."  # Replace with your dataset identifier
+dataset = ".../...."  # Replace with the dataset identifier in Kaggle
 download_dir = "./data"  # Local directory to save the dataset
 
 # Ensure the directory exists
