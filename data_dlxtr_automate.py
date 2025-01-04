@@ -9,6 +9,7 @@ download_dir = "./data"  # Local directory to save the dataset
 # Ensure the directory exists
 os.makedirs(download_dir, exist_ok=True)
 
+
 # Download the dataset
 os.system(f"kaggle datasets download -d {dataset} -p {download_dir}")
 
