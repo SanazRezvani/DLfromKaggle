@@ -22,6 +22,5 @@ csv_path = os.path.join(download_dir, ".....csv")  # Replace with your CSV file 
 df = pd.read_csv(csv_path)
 
 
-
 # Display the DataFrame
 print(df.head())
